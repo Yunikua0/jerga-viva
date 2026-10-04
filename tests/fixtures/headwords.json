@@ -1,0 +1,24 @@
+{
+  "redes-sociales": [
+    "viral", "trending", "influencer", "meme", "hater", "troll", "spoiler", "clickbait",
+    "shadowban", "cancelar", "fandom", "stan", "shippear", "pov", "ratio", "doomscrolling",
+    "fomo", "streamer", "algoritmo", "engagement", "hilo", "storytime", "collab", "unfollow",
+    "fyp"
+  ],
+  "gen-z": [
+    "cringe", "random", "vibe", "mood", "slay", "rizz", "delulu", "based", "sus", "npc",
+    "main-character", "bro", "flexear", "drip", "aesthetic", "pick-me", "boomer", "zoomer",
+    "glow-up", "lowkey", "highkey", "no-cap", "bestie", "periodt", "ate"
+  ],
+  "internet-gaming": [
+    "noob", "gg", "farmear", "lag", "tilt", "nerfear", "buffear", "smurf", "camper", "tryhard",
+    "grindear", "afk", "ez", "loot", "skin", "speedrun", "gacha", "main", "carry", "feeder",
+    "rage-quit", "meta", "clutch", "op", "bug"
+  ],
+  "relaciones-actitudes": [
+    "crush", "ghosting", "red-flag", "green-flag", "situationship", "love-bombing", "gaslighting",
+    "breadcrumbing", "benching", "simp", "friendzone", "ick", "toxic", "soft-launch",
+    "hard-launch", "catfish", "stalkear", "flirtear", "match", "orbiting", "cuffing-season",
+    "bae", "baddie", "chad", "yapear"
+  ]
+}

@@ -50,5 +50,629 @@
     "category": "relaciones-actitudes",
     "related": ["ghosting", "red-flag"],
     "sensitivity": "none"
+  },
+  {
+    "id": "trending",
+    "term": "Trending",
+    "definition": "Tema, palabra o video que está en boca de todos en este momento y sube en las listas de popularidad de una red.",
+    "examples": [
+      "Ese tema musical está trending en todas mis redes desde ayer.",
+      "¿Viste qué está trending hoy? Todo el mundo habla de lo mismo."
+    ],
+    "origin": "Del inglés «trending» (que va en tendencia). Se popularizó con la lista «trending topics» de Twitter, y en español se usa tal cual o como «tendencia».",
+    "category": "redes-sociales",
+    "related": ["viral", "fyp"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "influencer",
+    "term": "Influencer",
+    "definition": "Persona con muchos seguidores en redes cuyas opiniones y recomendaciones pueden mover los gustos de su audiencia.",
+    "examples": [
+      "Mi prima es influencer de viajes y le regalan hoteles para que los muestre.",
+      "Compré esa crema porque la recomendó una influencer que sigo."
+    ],
+    "origin": "Del inglés «influencer», derivado de «influence» (influir). Se generalizó con el auge de Instagram y YouTube, y en español se usa sin traducir.",
+    "category": "redes-sociales",
+    "related": ["streamer", "collab"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "meme",
+    "term": "Meme",
+    "definition": "Imagen, video o frase que se copia y se modifica una y otra vez en internet, casi siempre con intención de humor.",
+    "examples": [
+      "Le mandé un meme del gato confundido y se rió toda la tarde.",
+      "Ese meme lo ves en todos lados, cada vez con otro texto."
+    ],
+    "origin": "El biólogo Richard Dawkins creó la palabra «meme» en su libro «El gen egoísta» (1976), a partir del griego «mímesis» (imitación), para hablar de ideas que se copian de persona en persona.",
+    "category": "redes-sociales",
+    "related": ["viral", "trending"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "hater",
+    "term": "Hater",
+    "definition": "Persona que critica o desprecia a alguien o algo de forma constante, sin aportar nada, solo por fastidiar o por envidia.",
+    "examples": [
+      "No le hagas caso a los haters, tu video quedó genial.",
+      "Siempre hay un hater que comenta que todo le parece malo."
+    ],
+    "origin": "Del inglés «hater», alguien que odia («hate»). Su uso en internet se extendió en los años 2000 y hoy se aplica sobre todo a quien ataca a los demás en redes.",
+    "category": "redes-sociales",
+    "related": ["troll", "toxic"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "troll",
+    "term": "Troll",
+    "definition": "Persona que provoca a propósito en foros y redes para generar discusiones o enfadar a los demás, solo por diversión.",
+    "examples": [
+      "Ese perfil es un troll: solo escribe para hacer que la gente se pelee.",
+      "No le respondas al troll, que eso es justo lo que busca."
+    ],
+    "origin": "Del inglés «troll». En internet se usa desde los años 90 y se suele relacionar con «trolling», una técnica de pesca que arrastra un cebo, aunque su origen exacto es discutido.",
+    "category": "redes-sociales",
+    "related": ["hater", "ratio"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "spoiler",
+    "term": "Spoiler",
+    "definition": "Información sobre el final o un giro de una serie, película o juego que arruina la sorpresa a quien aún no lo ha visto.",
+    "examples": [
+      "No me cuentes nada, ¡que odio los spoilers!",
+      "Alguien soltó un spoiler en los comentarios y me arruinó el capítulo."
+    ],
+    "origin": "Del inglés «spoiler», que viene de «spoil» (estropear, echar a perder): lo que estropea la sorpresa. En español se usa igual, a veces como «espóiler».",
+    "category": "redes-sociales",
+    "related": ["fandom", "hilo"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "clickbait",
+    "term": "Clickbait",
+    "definition": "Título o imagen exagerados que buscan que hagas clic en un enlace, aunque el contenido luego no cumpla lo prometido.",
+    "examples": [
+      "Ese titular de «no creerás lo que pasó» es puro clickbait.",
+      "Caí en el clickbait y el video no tenía nada de lo que decía la miniatura."
+    ],
+    "origin": "Del inglés «click» (clic) y «bait» (cebo): un cebo para conseguir clics. Se popularizó con la competencia por visitas en medios digitales y videos en línea.",
+    "category": "redes-sociales",
+    "related": ["viral", "engagement"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "shadowban",
+    "term": "Shadowban",
+    "definition": "Castigo silencioso de una red social que reduce el alcance de tus publicaciones sin avisarte de que lo ha hecho.",
+    "examples": [
+      "Creo que me hicieron shadowban: mis videos ya casi no los ve nadie.",
+      "Dicen que usar ciertos hashtags te puede meter en un shadowban."
+    ],
+    "origin": "Del inglés «shadow» (sombra) y «ban» (bloqueo): un bloqueo en la sombra. Viene de la moderación de foros. Las plataformas suelen negar o matizar su existencia, así que el término es más de usuarios que oficial.",
+    "category": "redes-sociales",
+    "related": ["algoritmo", "engagement"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "cancelar",
+    "term": "Cancelar",
+    "definition": "Rechazar públicamente a una persona o marca en redes por algo que hizo o dijo, pidiendo que pierda apoyo o trabajo.",
+    "examples": [
+      "Lo cancelaron en redes por unos comentarios que escribió hace años.",
+      "Hay gente que cancela a todo el mundo por cualquier cosa."
+    ],
+    "origin": "Es el verbo «cancelar», usado con el sentido del inglés «cancel culture» (cultura de la cancelación). El uso se extendió en redes hacia finales de los años 2010.",
+    "category": "redes-sociales",
+    "related": ["hater", "ratio"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "fandom",
+    "term": "Fandom",
+    "definition": "Comunidad de fans de una serie, un grupo musical, un juego o un famoso, que comparte gustos y se reúne en línea.",
+    "examples": [
+      "El fandom de esa serie hizo un hilo gigante con todas sus teorías.",
+      "Soy parte del fandom desde que salió el primer álbum."
+    ],
+    "origin": "Del inglés «fandom», formado por «fan» y el sufijo «-dom» (como en «kingdom»), que indica un conjunto o ámbito. En español se usa sin traducir.",
+    "category": "redes-sociales",
+    "related": ["stan", "shippear"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "stan",
+    "term": "Stan",
+    "definition": "Fan muy devoto de un artista o personaje; también se usa como verbo para decir que apoyas a alguien con toda tu energía.",
+    "examples": [
+      "Yo stan a esa cantante desde su primer sencillo.",
+      "Soy stan de ese grupo y voy a todos sus conciertos."
+    ],
+    "origin": "Viene de la canción «Stan» (2000) del rapero Eminem, que cuenta la historia de un fan obsesivo. Con el tiempo pasó a nombrar a cualquier seguidor muy entregado, ya sin su sentido negativo.",
+    "category": "redes-sociales",
+    "related": ["fandom", "shippear"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "shippear",
+    "term": "Shippear",
+    "definition": "Desear que dos personajes o personas famosas terminen siendo pareja, o apoyar esa relación desde el fandom.",
+    "examples": [
+      "Llevo toda la temporada shippeando a esos dos personajes.",
+      "Mis amigas y yo shippeamos a esa pareja desde el primer episodio."
+    ],
+    "origin": "Del inglés «ship», acortado de «relationship» (relación). Se popularizó en comunidades de fans de series, y en español se le añadió el final «-ear» para hacerlo verbo.",
+    "category": "redes-sociales",
+    "related": ["fandom", "stan"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "pov",
+    "term": "POV",
+    "definition": "Formato de video o publicación que te muestra una situación como si la vivieras tú, mirando la escena desde ese punto de vista.",
+    "examples": [
+      "POV: llegas a casa y tu perro te ha recibido con una fiesta.",
+      "Ese video de POV de un día de escuela me hizo reír mucho."
+    ],
+    "origin": "Siglas del inglés «point of view» (punto de vista). Se usaba en el cine y la fotografía, y se convirtió en formato de moda en redes sobre todo gracias a TikTok.",
+    "category": "redes-sociales",
+    "related": ["storytime", "fyp"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "ratio",
+    "term": "Ratio",
+    "definition": "Cuando las respuestas a una publicación superan a sus «me gusta» o compartidos, señal de que mucha gente la rechaza.",
+    "examples": [
+      "Su tuit se llenó de respuestas y le hicieron ratio en minutos.",
+      "Escribió «ratio» en la respuesta para decir que ese mensaje había fracasado."
+    ],
+    "origin": "Del inglés «ratio» (proporción). Nació en Twitter, donde se compara la cantidad de respuestas con la de «me gusta». También se escribe «ratio» como respuesta para burlarse de una publicación.",
+    "category": "redes-sociales",
+    "related": ["troll", "cancelar"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "doomscrolling",
+    "term": "Doomscrolling",
+    "definition": "Costumbre de pasar horas deslizando la pantalla para leer noticias malas o preocupantes, aunque te haga sentir peor.",
+    "examples": [
+      "Estuve en doomscrolling hasta las tres de la mañana y no pude dormir.",
+      "Dejé de hacer doomscrolling porque me ponía de mal humor."
+    ],
+    "origin": "Del inglés «doom» (fatalidad) y «scrolling» (deslizar la pantalla). Se popularizó en 2020, durante la pandemia, cuando mucha gente no dejaba de leer malas noticias.",
+    "category": "redes-sociales",
+    "related": ["fomo", "algoritmo"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "fomo",
+    "term": "FOMO",
+    "definition": "Sensación de ansiedad por creer que otros se divierten más o viven algo importante mientras tú te lo pierdes.",
+    "examples": [
+      "Me dio FOMO ver las fotos de la fiesta a la que no fui.",
+      "Siento FOMO cada vez que mis amigos suben fotos de un viaje."
+    ],
+    "origin": "Siglas del inglés «fear of missing out» (miedo a perderse algo). Se popularizó en los años 2010, de la mano de las redes sociales, donde es fácil ver lo que hacen los demás.",
+    "category": "redes-sociales",
+    "related": ["doomscrolling", "unfollow"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "streamer",
+    "term": "Streamer",
+    "definition": "Persona que transmite en directo por internet, por ejemplo mientras juega, conversa o hace otra actividad frente a su audiencia.",
+    "examples": [
+      "Mi streamer favorito juega cada noche y charla con el chat.",
+      "Quiero ser streamer, pero primero tengo que comprar un buen micrófono."
+    ],
+    "origin": "Del inglés «streamer», de «stream» (flujo, transmisión). Se consolidó con plataformas de transmisión en directo y se usa en español tal cual.",
+    "category": "redes-sociales",
+    "related": ["influencer", "collab"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "algoritmo",
+    "term": "Algoritmo",
+    "definition": "Conjunto de reglas con el que una red decide qué contenido te muestra, y por eso a veces parece que sabe lo que te gusta.",
+    "examples": [
+      "El algoritmo me enseñó videos de cocina toda la semana.",
+      "Si no interactúas, el algoritmo deja de mostrarte esas cuentas."
+    ],
+    "origin": "La palabra viene del nombre del matemático persa Al-Juarismi, escrito «Algorithmi» en latín. Hoy se usa para hablar de los sistemas de recomendación de las redes sociales.",
+    "category": "redes-sociales",
+    "related": ["fyp", "engagement", "shadowban"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "engagement",
+    "term": "Engagement",
+    "definition": "Nivel de interacción que genera una publicación: comentarios, «me gusta» y compartidos, más allá de las visualizaciones.",
+    "examples": [
+      "Ese video tuvo mucho engagement porque todos comentaron.",
+      "Las marcas miran el engagement antes de elegir a quién patrocinar."
+    ],
+    "origin": "Del inglés «engagement», que significa compromiso o implicación. Se tomó del marketing digital, donde mide cuánto reacciona la gente a un contenido.",
+    "category": "redes-sociales",
+    "related": ["algoritmo", "clickbait"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "hilo",
+    "term": "Hilo",
+    "definition": "Serie de mensajes encadenados en una red social que cuentan una historia, una explicación o una opinión de forma ordenada.",
+    "examples": [
+      "Hizo un hilo larguísimo explicando la teoría del final.",
+      "Te dejo un hilo con todas las recomendaciones que me pediste."
+    ],
+    "origin": "Es la palabra «hilo» del español, usada como traducción del inglés «thread» (hilo de conversación). Se generalizó con Twitter, donde se enlazan mensajes seguidos.",
+    "category": "redes-sociales",
+    "related": ["spoiler", "storytime"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "storytime",
+    "term": "Storytime",
+    "definition": "Video en el que alguien cuenta una anécdota personal, muchas veces divertida o dramática, con todos sus detalles.",
+    "examples": [
+      "Mañana subo un storytime de lo que me pasó en el viaje.",
+      "Me encantan los storytime de gente que cuenta historias raras."
+    ],
+    "origin": "Del inglés «story time» (hora del cuento). Se tomó de la hora de lectura infantil y pasó a nombrar los videos de anécdotas en YouTube y TikTok.",
+    "category": "redes-sociales",
+    "related": ["pov", "hilo"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "collab",
+    "term": "Collab",
+    "definition": "Trabajo que hacen juntas dos o más personas creadoras de contenido, por ejemplo un video o una canción compartidos.",
+    "examples": [
+      "Anunciaron una collab entre mi streamer favorito y su amiga.",
+      "Hicimos una collab y ganamos seguidores los dos."
+    ],
+    "origin": "Acortado del inglés «collaboration» (colaboración). Se usa mucho entre creadores, músicos y marcas, y en español se dice tal cual.",
+    "category": "redes-sociales",
+    "related": ["influencer", "streamer"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "unfollow",
+    "term": "Unfollow",
+    "definition": "Dejar de seguir a una cuenta en una red social, ya sea por aburrimiento, por enfado o por limpiar tu lista.",
+    "examples": [
+      "Hice unfollow a todas las cuentas que me ponían de malas.",
+      "Me dieron unfollow y ni cuenta me di hasta hoy."
+    ],
+    "origin": "Del inglés «unfollow», que une el prefijo «un-» (deshacer) con «follow» (seguir). Surgió con las redes donde se sigue a otros usuarios y se usa tal cual en español.",
+    "category": "redes-sociales",
+    "related": ["fomo", "hater"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "fyp",
+    "term": "FYP",
+    "definition": "Página de inicio de TikTok que muestra videos elegidos para ti; también se usa como deseo de que un video llegue a mucha gente.",
+    "examples": [
+      "Ojalá este video llegue al fyp para que lo vea más gente.",
+      "Mi fyp está lleno de videos de gatos y recetas."
+    ],
+    "origin": "Siglas del inglés «For You Page» (página para ti), el nombre de la pantalla principal de TikTok. Los usuarios también lo escriben como hashtag para pedir que un video se difunda.",
+    "category": "redes-sociales",
+    "related": ["algoritmo", "viral"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "random",
+    "term": "Random",
+    "definition": "Algo que aparece de la nada, sin sentido ni relación con lo demás; también describe a alguien con ocurrencias inesperadas.",
+    "examples": [
+      "Fue un comentario muy random, nadie entendió de dónde salió.",
+      "Mi humor es medio random, siempre digo cosas sin sentido."
+    ],
+    "origin": "Del inglés «random», que significa «al azar». En español se usa tal cual desde hace años entre jóvenes para hablar de algo inesperado o sin relación.",
+    "category": "gen-z",
+    "related": ["cringe", "vibe"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "vibe",
+    "term": "Vibe",
+    "definition": "Ambiente o energía que transmite un lugar, una persona o una canción, y que se percibe más con la intuición que con razones.",
+    "examples": [
+      "Este lugar tiene un vibe muy tranquilo, me encanta.",
+      "Esa canción tiene un vibe de verano que me alegra el día."
+    ],
+    "origin": "Del inglés «vibe», acortado de «vibration» (vibración). Se usa desde los años 60 para hablar del ambiente que se siente, y hoy es muy común entre jóvenes.",
+    "category": "gen-z",
+    "related": ["mood", "aesthetic"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "mood",
+    "term": "Mood",
+    "definition": "Estado de ánimo del momento; también se usa como comentario para decir que algo te representa o que te sientes igual.",
+    "examples": [
+      "Mi mood de hoy es quedarme en cama todo el día.",
+      "Ese meme del gato dormido es mi mood de los lunes."
+    ],
+    "origin": "Del inglés «mood», que significa estado de ánimo. Se volvió muy usado en redes como reacción a una imagen o frase con la que alguien se identifica.",
+    "category": "gen-z",
+    "related": ["vibe", "lowkey"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "slay",
+    "term": "Slay",
+    "definition": "Hacer algo de forma espectacular o lucir increíble; también se usa como elogio para animar a alguien.",
+    "examples": [
+      "¡Ese look es increíble, slay total!",
+      "Presentó el proyecto con tanta seguridad que de verdad slayó."
+    ],
+    "origin": "Del inglés «slay», que literalmente es «matar». Se usó en la cultura drag y en la comunidad del ballroom como elogio y se extendió después a las redes en el inglés y en el español de internet.",
+    "category": "gen-z",
+    "related": ["ate", "periodt"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "rizz",
+    "term": "Rizz",
+    "definition": "Capacidad de atraer y conquistar a alguien con tu carisma, tu manera de hablar y tu seguridad.",
+    "examples": [
+      "Ese chico tiene mucho rizz, todos quieren hablar con él.",
+      "No tengo nada de rizz, me quedo en blanco cuando me gusta alguien."
+    ],
+    "origin": "Acortado de «charisma» (carisma) en inglés. Se popularizó en 2022 y 2023 en redes y videos de streamers, y la editorial Oxford la eligió palabra del año 2023 en inglés.",
+    "category": "gen-z",
+    "related": ["crush", "flexear"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "delulu",
+    "term": "Delulu",
+    "definition": "Persona que se hace ilusiones poco realistas, sobre todo en el amor, o que vive en su fantasía; se usa en broma.",
+    "examples": [
+      "Estoy delulu: creo que mi crush me va a escribir hoy.",
+      "Vivir delulu me hace feliz, ¿para qué quitármelo?"
+    ],
+    "origin": "Acortado del inglés «delusional» (iluso). Se suele asociar con comunidades de fans, en las que se bromeaba con soñar con la persona famosa, y más tarde se extendió a las redes.",
+    "category": "gen-z",
+    "related": ["crush", "lowkey"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "based",
+    "term": "Based",
+    "definition": "Se dice de alguien que mantiene su opinión con seguridad, sin importarle la aprobación ajena; se usa como aplauso.",
+    "examples": [
+      "Dijo lo que pensaba sin miedo, qué based.",
+      "Esa respuesta fue muy based, ni se inmutó con las críticas."
+    ],
+    "origin": "Origen incierto: viene del inglés «based» y se popularizó en internet con distintos significados según la comunidad. En el español actual se usa sobre todo para aplaudir a quien se mantiene firme.",
+    "category": "gen-z",
+    "related": ["slay", "no-cap"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "sus",
+    "term": "Sus",
+    "definition": "Sospechoso o raro; se usa para señalar que alguien o algo da mala espina.",
+    "examples": [
+      "Ese mensaje de un número desconocido me parece muy sus.",
+      "Tu excusa de por qué no fuiste está bastante sus."
+    ],
+    "origin": "Acortado del inglés «suspicious» (sospechoso). Se popularizó en 2020 con el videojuego «Among Us», en el que los jugadores acusan de «sus» a quien actúa raro.",
+    "category": "gen-z",
+    "related": ["npc", "random"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "npc",
+    "term": "NPC",
+    "definition": "Persona que parece actuar sin pensar por sí misma, repitiendo lo mismo que los demás, como un personaje de videojuego.",
+    "examples": [
+      "Dice siempre lo mismo que todos, parece un NPC.",
+      "Me sentí como un NPC repitiendo la misma rutina cada día."
+    ],
+    "origin": "Siglas del inglés «non-player character» (personaje no jugable), los personajes de un videojuego controlados por la máquina. En redes se usa en broma, y a veces con tono despectivo, para quien parece seguir un guion.",
+    "category": "gen-z",
+    "related": ["sus", "main-character"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "main-character",
+    "term": "Main character",
+    "definition": "Actitud de quien vive su vida como si fuera el protagonista de una película, atento a su propia historia y a su estilo.",
+    "examples": [
+      "Hoy me siento main character, voy caminando con mi playlist favorita.",
+      "Ponte tus audífonos y vive tu momento main character."
+    ],
+    "origin": "Del inglés «main character» (personaje principal). Se hizo popular en redes alrededor de 2020, con la idea de «main character energy»: tratar tu día a día como si fuera una película.",
+    "category": "gen-z",
+    "related": ["npc", "aesthetic"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "bro",
+    "term": "Bro",
+    "definition": "Forma muy informal de dirigirte a un amigo, parecida a «hermano», «colega» o «compa».",
+    "examples": [
+      "Bro, no vas a creer lo que me pasó hoy.",
+      "Gracias por ayudarme, bro, de verdad lo valoro."
+    ],
+    "origin": "Acortado del inglés «brother» (hermano). Se usa como apelativo entre amigos en inglés desde hace mucho y se extendió al español de internet entre jóvenes.",
+    "category": "gen-z",
+    "related": ["bestie", "chad"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "flexear",
+    "term": "Flexear",
+    "definition": "Presumir de algo que tienes o de algo que has logrado, como ropa, dinero o un viaje, a veces con humor.",
+    "examples": [
+      "Subió una foto flexeando sus zapatillas nuevas.",
+      "No quiero flexear, pero acabo de aprobar todos los exámenes."
+    ],
+    "origin": "Del inglés «flex» (flexionar), por el gesto de enseñar los músculos. Del hip hop pasó a la jerga de internet con el sentido de presumir, y en español se le añadió el final «-ear».",
+    "category": "gen-z",
+    "related": ["drip", "glow-up"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "drip",
+    "term": "Drip",
+    "definition": "Estilo muy llamativo y con buena pinta, sobre todo en la ropa y los accesorios.",
+    "examples": [
+      "Ese conjunto tiene mucho drip, te queda increíble.",
+      "Llegó con un drip que todos se quedaron mirando."
+    ],
+    "origin": "Del inglés «drip» (gota o goteo), usado para decir que alguien «chorrea» estilo. Se popularizó en el hip hop y en la música trap antes de llegar a las redes.",
+    "category": "gen-z",
+    "related": ["flexear", "aesthetic"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "aesthetic",
+    "term": "Aesthetic",
+    "definition": "Estilo visual coherente, con colores, objetos y ambiente que combinan entre sí; también se usa como adjetivo para algo bonito.",
+    "examples": [
+      "Mi cuarto tiene un aesthetic de plantas y luces cálidas.",
+      "Subió fotos muy aesthetic de su viaje."
+    ],
+    "origin": "Del inglés «aesthetic» (estético). Se popularizó en redes como Tumblr e Instagram, donde la gente crea tableros y perfiles con un mismo estilo visual.",
+    "category": "gen-z",
+    "related": ["vibe", "drip"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "pick-me",
+    "term": "Pick me",
+    "definition": "Persona que busca caer bien presumiendo de ser «distinta» a los demás, a menudo menospreciándolos para conseguir aprobación.",
+    "examples": [
+      "Dice que no es como las demás para gustarle a todos, qué pick me.",
+      "Su actitud pick me me parece incómoda."
+    ],
+    "origin": "Del inglés «pick me» (elígeme). Viene de la expresión «pick-me girl», popular en redes en los años 2010 para criticar este tipo de actitud. Se usa casi siempre con tono burlón.",
+    "category": "gen-z",
+    "related": ["cringe", "main-character"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "boomer",
+    "term": "Boomer",
+    "definition": "Persona mayor con ideas que a los jóvenes les parecen anticuadas; se usa en broma, aunque a veces con tono de burla.",
+    "examples": [
+      "Mi jefe sigue imprimiendo todo, es muy boomer.",
+      "Esa opinión es muy boomer, hoy nadie lo ve así."
+    ],
+    "origin": "Del inglés «baby boomer», las personas nacidas tras la Segunda Guerra Mundial. Se popularizó en 2019 con la frase «OK boomer» y hoy se usa para señalar ideas vistas como pasadas de moda.",
+    "category": "gen-z",
+    "related": ["zoomer", "cringe"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "zoomer",
+    "term": "Zoomer",
+    "definition": "Persona de la Generación Z, nacida más o menos entre finales de los años 90 y principios de los 2010.",
+    "examples": [
+      "Los zoomers crecieron con el móvil en la mano.",
+      "Soy zoomer, así que me acuerdo poco de la vida sin internet."
+    ],
+    "origin": "Juego de palabras con «boomer»: cambia la «b» por la «z» de «Generación Z». Se difundió en inglés y pasó al español entre jóvenes, a veces como autodescripción en tono de humor.",
+    "category": "gen-z",
+    "related": ["boomer", "bro"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "glow-up",
+    "term": "Glow up",
+    "definition": "Cambio positivo muy notable de una persona, ya sea en su aspecto, su estilo o su vida en general.",
+    "examples": [
+      "Qué glow up tuvo este año, no lo reconocí.",
+      "Mi glow up empezó cuando decidí cuidarme más."
+    ],
+    "origin": "Del inglés «glow up» (brillar). Se popularizó en redes con fotos de antes y después, y en español se usa sin traducir.",
+    "category": "gen-z",
+    "related": ["flexear", "slay"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "lowkey",
+    "term": "Lowkey",
+    "definition": "Un poco, en secreto o sin darle importancia; se usa para suavizar algo que sientes o piensas.",
+    "examples": [
+      "Estoy lowkey emocionado por el viaje, pero no se lo digas a nadie.",
+      "Esa canción me gusta lowkey, aunque finjo que no."
+    ],
+    "origin": "Del inglés «low-key», que significa discreto o de bajo perfil. En la jerga de internet se usa para decir «un poquito» o «sin que se note».",
+    "category": "gen-z",
+    "related": ["highkey", "mood"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "highkey",
+    "term": "Highkey",
+    "definition": "Muchísimo y sin ocultarlo; es lo contrario de decir algo de forma discreta.",
+    "examples": [
+      "Estoy highkey harto de esta tarea.",
+      "Highkey quiero que ese grupo saque un álbum nuevo."
+    ],
+    "origin": "Del inglés «high-key», formado como opuesto de «low-key» (discreto). Se usa en la jerga de internet para afirmar un sentimiento abiertamente, sin esconderlo.",
+    "category": "gen-z",
+    "related": ["lowkey", "mood"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "no-cap",
+    "term": "No cap",
+    "definition": "Expresión para asegurar que dices la verdad, equivalente a «sin mentir» o «en serio».",
+    "examples": [
+      "Ese fue el mejor concierto de mi vida, no cap.",
+      "No cap, creo que voy a sacar la mejor nota."
+    ],
+    "origin": "Del inglés «no cap». En el inglés coloquial afroamericano, «cap» es una mentira y «no cap» significa «sin mentir». Se popularizó en el hip hop y después en redes.",
+    "category": "gen-z",
+    "related": ["based", "periodt"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "bestie",
+    "term": "Bestie",
+    "definition": "Forma cariñosa de llamar a tu mejor amigo o amiga, o a alguien muy cercano.",
+    "examples": [
+      "Mi bestie siempre sabe cómo animarme.",
+      "Gracias por escucharme, bestie, eres lo máximo."
+    ],
+    "origin": "Del inglés «bestie», acortado de «best friend» (mejor amigo). Se hizo muy común en redes y mensajes entre jóvenes, a menudo como apelativo cariñoso.",
+    "category": "gen-z",
+    "related": ["bro", "bae"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "periodt",
+    "term": "Periodt",
+    "definition": "Expresión para cerrar una discusión o dar énfasis a algo: significa «y punto» o «no hay más que hablar».",
+    "examples": [
+      "Ese es el mejor disco del año, periodt.",
+      "No voy a ir, periodt."
+    ],
+    "origin": "Del inglés «period» (punto), la forma de decir «y punto». La «t» extra es un énfasis escrito en redes. Se popularizó en comunidades de internet de habla inglesa antes de llegar al español.",
+    "category": "gen-z",
+    "related": ["no-cap", "slay"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "ate",
+    "term": "Ate",
+    "definition": "Se dice cuando alguien hace algo de maravilla, con tanto estilo o talento que no deja nada que reprocharle.",
+    "examples": [
+      "Ella ate en ese baile, no dejó ni una migaja.",
+      "El equipo ate con la presentación, todos aplaudieron."
+    ],
+    "origin": "Del inglés «ate», pasado de «eat» (comer). Suele aparecer en frases como «ate and left no crumbs» (se lo comió todo y no dejó migajas) y se asocia con la cultura drag y ballroom, de donde pasó a las redes.",
+    "category": "gen-z",
+    "related": ["slay", "periodt"],
+    "sensitivity": "none"
   }
 ]
