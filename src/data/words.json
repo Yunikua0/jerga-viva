@@ -1,0 +1,54 @@
+[
+  {
+    "id": "viral",
+    "term": "Viral",
+    "definition": "Contenido que se comparte tan rápido en redes que lo ve muchísima gente en poco tiempo.",
+    "examples": [
+      "Ese video del perro bailando se hizo viral en una sola noche.",
+      "Su tuit se volvió viral y ahora todo el mundo lo cita."
+    ],
+    "origin": "Viene de «virus»: la idea es que el contenido se contagia de una persona a otra, igual que un virus, pero a través de las redes sociales.",
+    "category": "redes-sociales",
+    "related": ["meme", "trending"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "cringe",
+    "term": "Cringe",
+    "definition": "Algo que da vergüenza ajena o resulta incómodo de ver o escuchar.",
+    "examples": [
+      "Ese baile en la oficina fue tan cringe que me tapé la cara.",
+      "No subas ese video, da cringe."
+    ],
+    "origin": "Del inglés «cringe», que significa encogerse de vergüenza. Se popularizó en foros y redes entre jóvenes hispanohablantes y hoy se usa tal cual.",
+    "category": "gen-z",
+    "related": ["random", "vibe"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "noob",
+    "term": "Noob",
+    "definition": "Jugador novato o con poca experiencia, dicho a veces con burla y a veces con cariño.",
+    "examples": [
+      "No te enojes con el noob del equipo, apenas empezó a jugar.",
+      "Fui un noob total en mis primeras partidas."
+    ],
+    "origin": "Del inglés «newbie» (novato), acortado en los foros de videojuegos. Nació como insulto, aunque muchos lo dicen de sí mismos sin problema.",
+    "category": "internet-gaming",
+    "related": ["tryhard", "gg"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "crush",
+    "term": "Crush",
+    "definition": "Persona que te gusta en secreto o con la que sueñas, aunque todavía no haya nada entre ustedes.",
+    "examples": [
+      "Mi crush me dio like a la foto y no puedo dejar de sonreír.",
+      "Tengo un crush con alguien de mi clase."
+    ],
+    "origin": "Del inglés «crush» (enamoramiento). Entró al español por la música pop y las series juveniles, y hoy se usa como sustantivo: «mi crush».",
+    "category": "relaciones-actitudes",
+    "related": ["ghosting", "red-flag"],
+    "sensitivity": "none"
+  }
+]
