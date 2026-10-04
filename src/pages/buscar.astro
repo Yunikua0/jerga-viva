@@ -1,0 +1,20 @@
+---
+import Search from "astro-pagefind/components/Search.astro";
+import Base from "../layouts/Base.astro";
+---
+<Base
+  title="Buscar una palabra | Jerga Viva"
+  description="Busca una palabra de jerga moderna y descubre su significado, ejemplos y origen."
+  path="/buscar/"
+>
+  <div data-pagefind-ignore="all">
+    <h1>Buscar una palabra</h1>
+    <div class="mt-6 max-w-[40rem]">
+      <Search
+        instance="search"
+        className="pagefind-ui"
+        searchboxOptions={{ placeholder: "Escribe una palabra…" }}
+      />
+    </div>
+  </div>
+</Base>
