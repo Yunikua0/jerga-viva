@@ -2030,7 +2030,7 @@ Ruta: `public/favicon.svg`
 | Ruta de la lista de titulares | `tests/fixtures/headwords.json` | `tests/fixtures/headwords.json` | `tests/unit/coverage.test.ts` · pasos 5, 6 · regla `content.md` | yes |
 | Categorías (4 ids) | `src/lib/word-schema.ts` — `CATEGORIES` | `redes-sociales`, `gen-z`, `internet-gaming`, `relaciones-actitudes` | `tests/fixtures/headwords.json` (claves) · rutas `/categoria/<id>/` · `tests/e2e/home.spec.ts` · allowlist de `.claude/settings.json` | yes |
 | Ruta de la carpeta del blueprint | n/a | `blueprints` | `biome.json` · `tsconfig.json` | yes |
-| Selector de búsqueda | Pagefind (DOM real) | `.pagefind-ui__search-input`, `.pagefind-ui__result-link` | `tests/e2e/search.spec.ts` · `tests/e2e/keyboard.spec.ts` | **no — no verificado contra el DOM real** (ver paso 7 y riesgo en §20.2) |
+| Selector de búsqueda | Pagefind (DOM real) | `.pf-searchbox-input`, `.pf-searchbox-result` | `tests/e2e/search.spec.ts` · `tests/e2e/keyboard.spec.ts` | yes (verificado contra el DOM real en el paso 7; ver §20.3 #17) |
 
 #### Byte-exact artifact reconciliation
 NOT APPLICABLE — this blueprint authors no byte-exact expected output. Los tests comprueban propiedades (ids, esquemas, URLs, estados HTTP), nunca comparan un archivo contra un literal.
