@@ -1,0 +1,45 @@
+---
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_FALLBACK_URL, SITE_LANG, SITE_NAME } from "../lib/site";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  noindex?: boolean;
+  jsonLd?: Record<string, unknown>;
+  ogType?: "website" | "article";
+}
+
+const { title, description, path, noindex, jsonLd, ogType = "website" } = Astro.props;
+const canonical = new URL(path, Astro.site ?? SITE_FALLBACK_URL).href;
+---
+<html lang={SITE_LANG}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="color-scheme" content="light dark" />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content={ogType} />
+    <meta name="twitter:card" content="summary" />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body class="min-h-dvh flex flex-col">
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <Header />
+    <main id="main" tabindex="-1" class="mx-auto w-full max-w-[68rem] flex-1 px-4 py-8 sm:px-6">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
