@@ -674,5 +674,629 @@
     "category": "gen-z",
     "related": ["slay", "periodt"],
     "sensitivity": "none"
+  },
+  {
+    "id": "gg",
+    "term": "GG",
+    "definition": "Mensaje que se escribe al terminar una partida para felicitar al rival o reconocer que fue una buena partida; a veces se usa con ironía.",
+    "examples": [
+      "Perdimos, pero escribí GG porque jugaron muy bien.",
+      "Cuando vi que no había forma de ganar, solté un GG y salí."
+    ],
+    "origin": "Siglas del inglés «good game» (buena partida). Se usa en juegos en línea desde hace décadas como señal de deportividad, y en español se escribe igual.",
+    "category": "internet-gaming",
+    "related": ["ez", "rage-quit"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "farmear",
+    "term": "Farmear",
+    "definition": "Repetir una tarea en un juego una y otra vez para reunir experiencia, objetos o dinero virtual.",
+    "examples": [
+      "Estuve toda la tarde farmeando para subir de nivel.",
+      "Necesito farmear monedas antes de comprar la nueva arma."
+    ],
+    "origin": "Del inglés «farm» (cultivar): igual que un campo, se trabaja una y otra vez para obtener una cosecha. En español se le añadió el final «-ear» para convertirlo en verbo.",
+    "category": "internet-gaming",
+    "related": ["grindear", "loot"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "lag",
+    "term": "Lag",
+    "definition": "Retraso entre lo que haces en un juego en línea y lo que se ve en pantalla, causado por una conexión lenta o inestable.",
+    "examples": [
+      "Perdí la partida por el lag, mi personaje se quedó congelado.",
+      "Con tanto lag ya no se puede jugar."
+    ],
+    "origin": "Del inglés «lag» (retraso, rezago). Se usa en redes informáticas y videojuegos para hablar del tiempo que tarda en llegar la información, y en español se dice tal cual.",
+    "category": "internet-gaming",
+    "related": ["bug", "rage-quit"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "tilt",
+    "term": "Tilt",
+    "definition": "Estado de frustración en el que juegas peor porque te has enfadado por una mala racha o un error, y empiezas a tomar malas decisiones.",
+    "examples": [
+      "Perdí tres partidas seguidas y me fui de tilt.",
+      "Respira un poco, que estás en tilt y vas a seguir perdiendo."
+    ],
+    "origin": "Del inglés «tilt». En el pinball, inclinar demasiado la máquina la bloquea («tilt»), y el término pasó al póker y luego a los videojuegos para describir cuando la frustración te hace perder el control.",
+    "category": "internet-gaming",
+    "related": ["rage-quit", "clutch"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "nerfear",
+    "term": "Nerfear",
+    "definition": "Reducir la fuerza o las ventajas de un personaje, arma u objeto en un juego, normalmente mediante una actualización.",
+    "examples": [
+      "Ese personaje estaba rotísimo y lo nerfearon en el último parche.",
+      "Si nerfean esa arma, voy a tener que cambiar de estilo de juego."
+    ],
+    "origin": "Del inglés «nerf». Se suele relacionar con los juguetes de espuma blanda de la marca Nerf, porque dejan al arma «suave» e inofensiva. En español se le añadió el final «-ear».",
+    "category": "internet-gaming",
+    "related": ["buffear", "op"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "buffear",
+    "term": "Buffear",
+    "definition": "Mejorar o hacer más fuerte a un personaje, arma u objeto de un juego, normalmente con una actualización.",
+    "examples": [
+      "Por fin buffearon a mi personaje favorito, ahora sí sirve.",
+      "Dicen que van a buffear esa habilidad en el próximo parche."
+    ],
+    "origin": "Del inglés «buff», que se usa como opuesto de «nerf». Su origen exacto se discute, aunque se suele relacionar con la idea de «fortalecer». En español se le añadió el final «-ear».",
+    "category": "internet-gaming",
+    "related": ["nerfear", "meta"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "smurf",
+    "term": "Smurf",
+    "definition": "Jugador experto que usa una cuenta nueva o de bajo nivel para enfrentarse a novatos, a menudo para divertirse o por no esperar.",
+    "examples": [
+      "Ese jugador debe ser un smurf, juega demasiado bien para su nivel.",
+      "Mi hermano hizo un smurf para jugar con sus amigos novatos."
+    ],
+    "origin": "Del inglés «smurf» (pitufo). Se suele relacionar con los años 90 en comunidades de juegos competitivos, que usaban cuentas «pequeñas» como las de los Pitufos; su origen exacto es discutido.",
+    "category": "internet-gaming",
+    "related": ["noob", "tryhard"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "camper",
+    "term": "Camper",
+    "definition": "Jugador que se queda escondido en un mismo lugar, esperando a sorprender a los rivales en lugar de moverse por el mapa.",
+    "examples": [
+      "Un camper me eliminó tres veces desde la misma esquina.",
+      "No soporto a los campers, nunca se mueven del mismo sitio."
+    ],
+    "origin": "Del inglés «camper», alguien que acampa («camp»): se queda quieto en un lugar como quien monta una tienda. Se popularizó con los juegos de disparos en primera persona.",
+    "category": "internet-gaming",
+    "related": ["tryhard", "feeder"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "tryhard",
+    "term": "Tryhard",
+    "definition": "Jugador que se toma una partida demasiado en serio y se esfuerza al máximo, incluso en un juego casual; suele decirse con burla.",
+    "examples": [
+      "Ese chico es muy tryhard, hasta en la partida de amigos juega a ganar.",
+      "No seas tan tryhard, solo estamos jugando para divertirnos."
+    ],
+    "origin": "Del inglés «try hard» (esforzarse mucho). Surgió en comunidades de videojuegos y se aplica a quien parece demasiado empeñado en ganar, a veces como burla y a veces como elogio.",
+    "category": "internet-gaming",
+    "related": ["noob", "smurf"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "grindear",
+    "term": "Grindear",
+    "definition": "Repetir una actividad aburrida o cansada en un juego durante mucho tiempo para conseguir progreso o recompensas.",
+    "examples": [
+      "Tuve que grindear horas para desbloquear ese personaje.",
+      "Dejé de grindear porque ya me aburría tanta repetición."
+    ],
+    "origin": "Del inglés «grind» (moler, triturar), por el trabajo pesado y repetitivo. En los videojuegos se usa para el progreso lento; en español se le añadió el final «-ear».",
+    "category": "internet-gaming",
+    "related": ["farmear", "carry"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "afk",
+    "term": "AFK",
+    "definition": "Aviso de que estás lejos del teclado o de la pantalla por un rato, o forma de nombrar al jugador que no está jugando.",
+    "examples": [
+      "Voy a estar AFK cinco minutos, voy a buscar algo de comer.",
+      "Tuvimos un AFK en el equipo y perdimos por eso."
+    ],
+    "origin": "Siglas del inglés «away from keyboard» (lejos del teclado). Se usaba en los chats y juegos en línea antiguos para avisar que uno se ausentaba, y sigue vigente hoy.",
+    "category": "internet-gaming",
+    "related": ["feeder", "rage-quit"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "ez",
+    "term": "EZ",
+    "definition": "Forma escrita de decir que algo fue facilísimo; en partidas en línea se usa para presumir y a veces para provocar al rival.",
+    "examples": [
+      "Terminé el nivel en un minuto, EZ.",
+      "Escribirle EZ a un rival que pierde puede ser de mala educación."
+    ],
+    "origin": "Deformación escrita del inglés «easy» (fácil), que suena igual a «EZ». Se hizo muy habitual en el chat de los juegos en línea; a menudo se considera una burla.",
+    "category": "internet-gaming",
+    "related": ["gg", "op"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "loot",
+    "term": "Loot",
+    "definition": "Objetos, armas o recompensas que se consiguen en un juego, por ejemplo al derrotar enemigos o abrir cofres.",
+    "examples": [
+      "Después de la batalla repartimos todo el loot entre el equipo.",
+      "Ese jefe suelta mucho loot, vale la pena enfrentarlo."
+    ],
+    "origin": "Del inglés «loot» (botín), palabra que a su vez viene del hindi «lūṭ». En los videojuegos nombra las recompensas que se obtienen, y en español se usa sin traducir.",
+    "category": "internet-gaming",
+    "related": ["farmear", "gacha"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "skin",
+    "term": "Skin",
+    "definition": "Aspecto distinto que se aplica a un personaje, arma u objeto de un juego sin cambiar cómo funciona, solo cómo se ve.",
+    "examples": [
+      "Compré una skin nueva para mi personaje con las monedas del juego.",
+      "Esa skin brilla un montón, pero no mejora el arma."
+    ],
+    "origin": "Del inglés «skin» (piel): la «capa» exterior que cambia la apariencia. En los videojuegos se vende o se gana como elemento estético, y en español se dice tal cual.",
+    "category": "internet-gaming",
+    "related": ["loot", "gacha"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "speedrun",
+    "term": "Speedrun",
+    "definition": "Partida en la que intentas terminar un juego en el menor tiempo posible, a menudo usando trucos o rutas muy ensayadas.",
+    "examples": [
+      "Vi un speedrun de ese juego que lo terminó en menos de una hora.",
+      "Estoy practicando para hacer un speedrun de mi juego favorito."
+    ],
+    "origin": "Del inglés «speed» (velocidad) y «run» (carrera, partida). Nació en comunidades de jugadores que compiten por el mejor tiempo y se usa tal cual en español.",
+    "category": "internet-gaming",
+    "related": ["clutch", "meta"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "gacha",
+    "term": "Gacha",
+    "definition": "Sistema de algunos juegos en el que pagas o gastas monedas para obtener un premio al azar, como personajes u objetos.",
+    "examples": [
+      "Gasté todas mis monedas en el gacha y no salió nada bueno.",
+      "Ese juego gacha tiene personajes muy bonitos, pero cuesta conseguirlos."
+    ],
+    "origin": "Del japonés «gachapon», nombre de las máquinas de cápsulas con juguetes sorpresa: «gacha» imita el sonido de la manivela y «pon», el de la cápsula al caer. De ahí pasó a los videojuegos con premios al azar.",
+    "category": "internet-gaming",
+    "related": ["loot", "skin"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "main",
+    "term": "Main",
+    "definition": "Personaje o rol que juegas casi siempre en un juego; también se dice «ser main de» alguien para indicar que lo eliges a menudo.",
+    "examples": [
+      "Mi main es la curandera, me gusta apoyar al equipo.",
+      "Soy main de ese personaje desde que salió el juego."
+    ],
+    "origin": "Del inglés «main» (principal). En los videojuegos nombra al personaje o clase que alguien usa sobre todo, y en español se usa tal cual, a veces como verbo: «mainear».",
+    "category": "internet-gaming",
+    "related": ["carry", "meta"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "carry",
+    "term": "Carry",
+    "definition": "Jugador que lleva a su equipo a la victoria con su habilidad, o personaje diseñado para ser clave en el resultado.",
+    "examples": [
+      "Fue el carry de la partida, ganó casi solo.",
+      "Necesitamos un carry en el equipo para poder remontar."
+    ],
+    "origin": "Del inglés «carry» (llevar, cargar): quien «carga» con el equipo. Se usa en juegos de equipo en línea y en español se dice tal cual, a veces como verbo: «carriar».",
+    "category": "internet-gaming",
+    "related": ["clutch", "feeder"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "feeder",
+    "term": "Feeder",
+    "definition": "Jugador que muere una y otra vez y, sin querer o queriendo, da ventaja al equipo contrario; se usa con tono de reproche.",
+    "examples": [
+      "Nuestro feeder murió siete veces en diez minutos.",
+      "No seas feeder, mejor quédate cerca del equipo."
+    ],
+    "origin": "Del inglés «feeder» (alguien que alimenta). La idea es que, al morir, «alimenta» de puntos y recursos al rival. Se popularizó en los juegos de equipo en línea y suele decirse con enfado.",
+    "category": "internet-gaming",
+    "related": ["noob", "afk"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "rage-quit",
+    "term": "Rage quit",
+    "definition": "Abandonar una partida de golpe, por enfado, porque algo salió mal o porque se está perdiendo.",
+    "examples": [
+      "Perdió el nivel, se enojó y rage quit sin despedirse.",
+      "Cuando fallé el último salto, hice rage quit y apagué la consola."
+    ],
+    "origin": "Del inglés «rage» (rabia) y «quit» (abandonar). Surgió en la comunidad de videojuegos para describir salirse de una partida por pura rabia; en español se usa sin traducir.",
+    "category": "internet-gaming",
+    "related": ["tilt", "gg"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "meta",
+    "term": "Meta",
+    "definition": "Conjunto de estrategias, personajes o equipamientos que la mayoría de jugadores considera los más efectivos en un momento dado.",
+    "examples": [
+      "Ese personaje está en el meta, lo ves en todas las partidas.",
+      "Cambió el meta con el último parche y ahora todo es distinto."
+    ],
+    "origin": "Viene de «metagame» (metajuego), en inglés: lo que ocurre alrededor del juego más allá de sus reglas, como las estrategias que se usan. Se acortó a «meta» y se usa en español sobre todo en juegos competitivos.",
+    "category": "internet-gaming",
+    "related": ["buffear", "op"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "clutch",
+    "term": "Clutch",
+    "definition": "Jugada decisiva hecha bajo mucha presión que da la victoria, por ejemplo ganar una ronda estando en inferioridad.",
+    "examples": [
+      "Ganó la ronda contra tres rivales con una jugada clutch increíble.",
+      "Ese tiro final fue puro clutch, nadie lo esperaba."
+    ],
+    "origin": "Del inglés «clutch», palabra que en el deporte y en los videojuegos se usa para los momentos críticos en los que se decide el resultado. En español se mantiene sin traducir.",
+    "category": "internet-gaming",
+    "related": ["carry", "speedrun"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "op",
+    "term": "OP",
+    "definition": "Personaje, arma o habilidad tan fuerte en un juego que rompe el equilibrio y resulta injusta para los demás.",
+    "examples": [
+      "Esa arma es OP, nadie puede ganarle de cerca.",
+      "Dicen que ese personaje es OP y lo van a nerfear pronto."
+    ],
+    "origin": "Siglas del inglés «overpowered» (con demasiado poder). Se usa en videojuegos y en español se dice tal cual. No confundir con «OP» como «original poster» (autor de un mensaje) en foros.",
+    "category": "internet-gaming",
+    "related": ["nerfear", "meta"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "bug",
+    "term": "Bug",
+    "definition": "Error en un programa o juego que provoca un comportamiento inesperado, desde fallos graciosos hasta cierres inesperados.",
+    "examples": [
+      "Encontré un bug que me dejó atravesar la pared.",
+      "El juego tiene un bug que borra mi progreso a veces."
+    ],
+    "origin": "Del inglés «bug» (bicho). Se usaba en ingeniería para hablar de fallos desde hace más de un siglo, y de ahí pasó a la informática y los videojuegos. En español se dice igual.",
+    "category": "internet-gaming",
+    "related": ["lag", "op"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "ghosting",
+    "term": "Ghosting",
+    "definition": "Dejar de responder de golpe y sin explicación a alguien con quien hablabas o salías, desapareciendo como un fantasma.",
+    "examples": [
+      "Me hizo ghosting después de tres citas y nunca supe por qué.",
+      "Hacer ghosting es evitar una conversación difícil, pero duele."
+    ],
+    "origin": "Del inglés «ghost» (fantasma): desaparecer sin dejar rastro. Se hizo habitual con las aplicaciones de citas y la mensajería, y en español se dice tal cual.",
+    "category": "relaciones-actitudes",
+    "related": ["breadcrumbing", "orbiting"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "red-flag",
+    "term": "Red flag",
+    "definition": "Señal de alerta en el comportamiento de alguien que sugiere que una relación puede ser mala o problemática.",
+    "examples": [
+      "Que hable mal de todos sus ex es una red flag.",
+      "Para mí es una red flag que no respete mis horarios."
+    ],
+    "origin": "Del inglés «red flag» (bandera roja), la bandera con la que se avisa de un peligro. En español se usa como «bandera roja», aunque entre jóvenes se oye más en inglés.",
+    "category": "relaciones-actitudes",
+    "related": ["green-flag", "toxic"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "green-flag",
+    "term": "Green flag",
+    "definition": "Señal positiva en el comportamiento de alguien que indica que puede ser una buena pareja, amistad o persona de confianza.",
+    "examples": [
+      "Que me escuche sin interrumpir es una green flag.",
+      "Es una green flag que cuide así a su familia."
+    ],
+    "origin": "Del inglés «green flag» (bandera verde). Se formó como contrario de «red flag», tomando el verde como señal de vía libre. En español se dice también «bandera verde».",
+    "category": "relaciones-actitudes",
+    "related": ["red-flag", "crush"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "situationship",
+    "term": "Situationship",
+    "definition": "Relación poco clara en la que hay algo más que amistad, pero sin compromiso ni definición de lo que son.",
+    "examples": [
+      "No somos novios, estamos en una situationship y ya es confuso.",
+      "Terminé mi situationship porque yo quería algo más serio."
+    ],
+    "origin": "Mezcla de las palabras inglesas «situation» (situación) y «relationship» (relación). Se popularizó en redes en los años 2010 para describir vínculos que no tienen etiqueta.",
+    "category": "relaciones-actitudes",
+    "related": ["benching", "ghosting"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "love-bombing",
+    "term": "Love bombing",
+    "definition": "Cuando alguien te llena de atención, halagos y regalos desde el principio y con demasiada intensidad, y luego puede cambiar su trato.",
+    "examples": [
+      "Al principio me escribía todo el día, y luego resultó ser love bombing.",
+      "Tanta intensidad tan rápida me dio mala espina, parecía love bombing."
+    ],
+    "origin": "Del inglés «love bombing» (bombardeo de amor). Se suele atribuir su origen a descripciones de grupos sectarios en los años 70. En redes se usa de forma coloquial, no como un diagnóstico.",
+    "category": "relaciones-actitudes",
+    "related": ["red-flag", "gaslighting"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "gaslighting",
+    "term": "Gaslighting",
+    "definition": "Manipulación en la que alguien te hace dudar de lo que recuerdas o sientes, diciéndote que exageras o que imaginaste lo ocurrido.",
+    "examples": [
+      "Negó lo que dijo y me hizo dudar de mí mismo; eso es gaslighting.",
+      "Decir «estás exagerando» cada vez que te quejas puede ser gaslighting."
+    ],
+    "origin": "Viene de «Gas Light», una obra de teatro de 1938 (y su película de 1944) en la que un hombre hace dudar a su esposa de su propia percepción. En redes se usa coloquialmente, no como un diagnóstico.",
+    "category": "relaciones-actitudes",
+    "related": ["love-bombing", "toxic"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "breadcrumbing",
+    "term": "Breadcrumbing",
+    "definition": "Dar señales de interés mínimas e intermitentes a alguien, con mensajes o likes, sin intención real de iniciar algo serio.",
+    "examples": [
+      "Me escribe un «hola» cada dos semanas y desaparece: puro breadcrumbing.",
+      "Estoy cansada del breadcrumbing, quiero a alguien que se decida."
+    ],
+    "origin": "Del inglés «breadcrumbs» (migas de pan): pequeñas migajas de atención que mantienen a la otra persona interesada, como el rastro de migas del cuento. Se popularizó con las aplicaciones de citas.",
+    "category": "relaciones-actitudes",
+    "related": ["ghosting", "benching"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "benching",
+    "term": "Benching",
+    "definition": "Mantener a alguien en espera como segunda opción, dándole algo de atención pero sin comprometerse, por si falla otra relación.",
+    "examples": [
+      "Me di cuenta de que me tenía en benching mientras buscaba algo mejor.",
+      "Sentirse en benching es horrible, uno nunca es la prioridad."
+    ],
+    "origin": "Del inglés «bench» (banco de suplentes): como el jugador que espera en el banquillo por si hace falta. Se popularizó en las aplicaciones de citas durante los años 2010.",
+    "category": "relaciones-actitudes",
+    "related": ["breadcrumbing", "situationship"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "simp",
+    "term": "Simp",
+    "definition": "Persona que muestra demasiada atención o entrega hacia alguien que le gusta, a veces sin ser correspondida; se usa con burla.",
+    "examples": [
+      "Le regaló de todo a su crush y sus amigos le dicen simp.",
+      "No quiero ser un simp, así que mejor no le escribo tanto."
+    ],
+    "origin": "Origen incierto: se popularizó en inglés hacia finales de los años 2010 y se suele asociar con «simpleton» (ingenuo) y con un uso previo en el hip hop. Hoy se usa en redes casi siempre con tono de burla.",
+    "category": "relaciones-actitudes",
+    "related": ["crush", "friendzone"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "friendzone",
+    "term": "Friendzone",
+    "definition": "Situación en la que alguien quiere algo más con una persona, pero esta solo lo ve como amigo.",
+    "examples": [
+      "Le confesó lo que sentía y quedó en la friendzone.",
+      "Estar en la friendzone duele cuando quieres algo más."
+    ],
+    "origin": "Del inglés «friend zone» (zona de amistad). Se suele relacionar con su popularización en series de televisión de los años 90, como «Friends», y hoy se usa sin traducir.",
+    "category": "relaciones-actitudes",
+    "related": ["crush", "simp"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "ick",
+    "term": "Ick",
+    "definition": "Sensación repentina de rechazo hacia alguien que antes te gustaba, provocada por un detalle pequeño que te quita las ganas.",
+    "examples": [
+      "Me dio el ick cuando lo vi tratar mal a una mesera.",
+      "Era perfecto, hasta que me dio el ick por su forma de reírse."
+    ],
+    "origin": "Del inglés «ick», una interjección que expresa asco. La expresión «el ick» se hizo viral en redes, sobre todo en TikTok, durante la década de 2020, para hablar de ese rechazo repentino.",
+    "category": "relaciones-actitudes",
+    "related": ["red-flag", "ghosting"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "toxic",
+    "term": "Toxic",
+    "definition": "Se dice de una persona, relación o ambiente que hace daño o genera malestar de forma constante; también se usa en el ámbito de los juegos.",
+    "examples": [
+      "Se acabó la amistad porque se volvió muy toxic.",
+      "Hay jugadores toxic que insultan a todo el equipo."
+    ],
+    "origin": "Del inglés «toxic» (tóxico), que viene del griego «toxikón» (veneno). Se aplica de forma figurada a comportamientos dañinos. En redes se usa a la ligera y no sustituye una valoración profesional.",
+    "category": "relaciones-actitudes",
+    "related": ["red-flag", "hater"],
+    "sensitivity": "mild"
+  },
+  {
+    "id": "soft-launch",
+    "term": "Soft launch",
+    "definition": "Mostrar en redes a tu pareja de forma discreta, sin enseñar el rostro, con pistas como una mano o una sombra.",
+    "examples": [
+      "Hizo un soft launch de su novio con una foto de dos cafés.",
+      "Subí un soft launch con una mano y mis amigos ya lo sospechan."
+    ],
+    "origin": "Del inglés «soft launch» (lanzamiento suave), un término del marketing para presentar un producto de forma discreta antes del lanzamiento completo. En redes se aplicó a las relaciones.",
+    "category": "relaciones-actitudes",
+    "related": ["hard-launch", "situationship"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "hard-launch",
+    "term": "Hard launch",
+    "definition": "Presentar a tu pareja públicamente en redes, mostrando su cara y dejando claro que están juntos.",
+    "examples": [
+      "Después de seis meses, por fin hizo el hard launch de su pareja.",
+      "Subí una foto juntos como hard launch y recibimos muchos mensajes."
+    ],
+    "origin": "Del inglés «hard launch» (lanzamiento completo), término del marketing que se contrapone a «soft launch». En redes se usa para anunciar una relación de forma abierta.",
+    "category": "relaciones-actitudes",
+    "related": ["soft-launch", "match"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "catfish",
+    "term": "Catfish",
+    "definition": "Persona que se hace pasar por otra en internet, con fotos y datos falsos, normalmente para engañar a alguien en el plano sentimental.",
+    "examples": [
+      "Resultó que era un catfish y las fotos eran de otra persona.",
+      "Antes de quedar, pidió una videollamada para evitar un catfish."
+    ],
+    "origin": "Del inglés «catfish» (siluro, un pez). Se popularizó con el documental «Catfish» (2010) y la serie de televisión que le siguió, sobre engaños en línea. En español se usa tal cual.",
+    "category": "relaciones-actitudes",
+    "related": ["ghosting", "match"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "stalkear",
+    "term": "Stalkear",
+    "definition": "Revisar sin parar y a escondidas las redes de alguien, como sus fotos y publicaciones antiguas, para saber más de su vida.",
+    "examples": [
+      "Estuve media hora stalkeando el perfil de mi crush.",
+      "No stalkees a tu ex, solo te vas a sentir peor."
+    ],
+    "origin": "Del inglés «stalk» (acechar, seguir de cerca). En español se le añadió el final «-ear». En redes se usa con ligereza, aunque acosar de verdad a alguien es un problema serio.",
+    "category": "relaciones-actitudes",
+    "related": ["crush", "orbiting"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "flirtear",
+    "term": "Flirtear",
+    "definition": "Mostrar interés romántico por alguien con gestos, miradas o comentarios, normalmente de forma juguetona.",
+    "examples": [
+      "Estuvo toda la noche flirteando con el chico de la barra.",
+      "No sé flirtear, me pongo muy nervioso."
+    ],
+    "origin": "Del inglés «flirt» (coquetear), cuyo origen exacto es incierto. En español se adaptó como verbo con el final «-ear» y es de uso corriente, incluso fuera de la jerga juvenil.",
+    "category": "relaciones-actitudes",
+    "related": ["rizz", "crush"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "match",
+    "term": "Match",
+    "definition": "Coincidencia en la que dos personas se gustan mutuamente en una aplicación de citas, lo que les permite empezar a hablar.",
+    "examples": [
+      "Tuve un match anoche y hoy ya estamos hablando.",
+      "Cuesta mucho tener match con alguien que realmente te interese."
+    ],
+    "origin": "Del inglés «match» (pareja, coincidencia). Se popularizó con las aplicaciones de citas que muestran un aviso cuando ambas personas se dan «me gusta». En español se dice igual.",
+    "category": "relaciones-actitudes",
+    "related": ["catfish", "flirtear"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "orbiting",
+    "term": "Orbiting",
+    "definition": "Seguir viendo tus historias y publicaciones en redes después de cortar el contacto contigo, sin escribirte ni dar señales.",
+    "examples": [
+      "Me dejó de hablar, pero sigue viendo todas mis historias: es orbiting.",
+      "Sufrir orbiting es raro, parece que sigue ahí sin estar."
+    ],
+    "origin": "Del inglés «orbit» (orbitar): dar vueltas alrededor sin acercarse. Se popularizó en la década de 2010 junto a otros términos de las citas en línea, como «ghosting».",
+    "category": "relaciones-actitudes",
+    "related": ["ghosting", "stalkear"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "cuffing-season",
+    "term": "Cuffing season",
+    "definition": "Época fría del año, entre otoño e invierno, en la que mucha gente busca pareja estable para no pasar el frío en soledad.",
+    "examples": [
+      "Llegó el otoño y empezó la cuffing season: todos buscan pareja.",
+      "Me dijeron que la cuffing season es un buen momento para conocer a alguien."
+    ],
+    "origin": "Del inglés «cuff» (esposar, atar): «cuffing» significa comprometerse con una pareja. «Cuffing season» se usa en inglés para la temporada fría en que muchos buscan relación estable.",
+    "category": "relaciones-actitudes",
+    "related": ["situationship", "match"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "bae",
+    "term": "Bae",
+    "definition": "Forma cariñosa de llamar a tu pareja o a la persona que quieres.",
+    "examples": [
+      "Voy a salir a cenar con mi bae esta noche.",
+      "Le dejé una nota a mi bae antes de irme."
+    ],
+    "origin": "Origen discutido: se dice que es una forma acortada de «babe» (cariño) o la sigla de «before anyone else» (antes que nadie). Se popularizó en inglés hacia 2013 y se extendió al español de internet.",
+    "category": "relaciones-actitudes",
+    "related": ["bestie", "crush"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "baddie",
+    "term": "Baddie",
+    "definition": "Persona segura de sí misma, con mucho estilo y presencia, que sabe lo que vale; se usa como elogio.",
+    "examples": [
+      "Llegó con un estilo de baddie y todos se la quedaron mirando.",
+      "Ella es una baddie total: segura, elegante y con mucho carácter."
+    ],
+    "origin": "Del inglés «baddie», derivado de «bad» (malo). En el inglés coloquial de internet «bad» también puede significar «genial», y «baddie» se hizo popular en Instagram como elogio hacia una persona con mucha actitud.",
+    "category": "relaciones-actitudes",
+    "related": ["slay", "chad"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "chad",
+    "term": "Chad",
+    "definition": "Arquetipo de hombre atractivo, seguro de sí mismo y muy exitoso en lo social; se usa en broma, ya sea como elogio o como burla.",
+    "examples": [
+      "Entró al gimnasio como un chad y todos lo miraron.",
+      "Mi primo se cree un chad, pero siempre llega tarde."
+    ],
+    "origin": "Del nombre propio inglés «Chad», usado en foros de internet como arquetipo de hombre atractivo y confiado. Se popularizó en la década de 2010 y en redes se usa casi siempre con ironía.",
+    "category": "relaciones-actitudes",
+    "related": ["bro", "baddie"],
+    "sensitivity": "none"
+  },
+  {
+    "id": "yapear",
+    "term": "Yapear",
+    "definition": "Hablar sin parar, sobre todo de cosas poco importantes, como alguien que no deja de contar historias.",
+    "examples": [
+      "Estuvo yapeando una hora sobre su serie favorita.",
+      "Perdón por yapear tanto, es que me emociono cuando hablo de esto."
+    ],
+    "origin": "Del inglés «yap» (ladrar con voz aguda, parlotear), con el final «-ear» del español. Se popularizó en redes en la década de 2020, sobre todo en comunidades de videojuegos y streaming.",
+    "category": "relaciones-actitudes",
+    "related": ["flirtear", "storytime"],
+    "sensitivity": "none"
   }
 ]
