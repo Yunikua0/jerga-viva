@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import ShareButton from "../../components/ShareButton.astro";
 import Base from "../../layouts/Base.astro";
 import { SITE_FALLBACK_URL, SITE_NAME } from "../../lib/site";
 import { truncate } from "../../lib/text";
@@ -61,6 +62,7 @@ const sensitivityLabel =
       }
     </p>
     <p data-testid="definition" class="mt-6 text-xl">{entry.data.definition}</p>
+    <ShareButton url={canonicalUrl} title={entry.data.term} />
     <h2 class="mt-8">Ejemplos</h2>
     <ul data-testid="examples" class="mt-2 list-disc space-y-2 pl-6">
       {entry.data.examples.map((example) => <li>{example}</li>)}

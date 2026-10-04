@@ -1,0 +1,50 @@
+---
+interface Props {
+  url: string;
+  title: string;
+}
+
+const { url, title } = Astro.props;
+---
+<div class="mt-4 flex flex-wrap items-center gap-3">
+  <button
+    type="button"
+    data-share
+    data-url={url}
+    data-title={title}
+    class="inline-flex min-h-11 items-center rounded-full bg-primary px-6 font-bold text-primary-fg transition-transform duration-150 ease-out hover:-translate-y-0.5"
+  >
+    Compartir
+  </button>
+  <p role="status" data-share-status class="font-semibold text-success"></p>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>("[data-share]").forEach((button) => {
+    const status = button.parentElement?.querySelector<HTMLElement>("[data-share-status]");
+    const url = button.dataset.url ?? location.href;
+    const title = button.dataset.title ?? document.title;
+
+    const copy = async () => {
+      try {
+        await navigator.clipboard.writeText(url);
+        if (status) status.textContent = "Enlace copiado";
+      } catch {
+        if (status) status.textContent = "No se pudo copiar el enlace";
+      }
+    };
+
+    button.addEventListener("click", async () => {
+      if (typeof navigator.share === "function") {
+        try {
+          await navigator.share({ title, url });
+        } catch (error) {
+          if (error instanceof DOMException && error.name === "AbortError") return;
+          await copy();
+        }
+        return;
+      }
+      await copy();
+    });
+  });
+</script>
