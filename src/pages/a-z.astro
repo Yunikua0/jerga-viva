@@ -1,0 +1,61 @@
+---
+import { getCollection } from "astro:content";
+import WordCard from "../components/WordCard.astro";
+import Base from "../layouts/Base.astro";
+import { SITE_NAME } from "../lib/site";
+import { compareTerms, letterOf } from "../lib/text";
+
+const words = (await getCollection("words")).sort((a, b) => compareTerms(a.data.term, b.data.term));
+const groups = new Map<string, typeof words>();
+for (const entry of words) {
+  const letter = letterOf(entry.data.term);
+  groups.set(letter, [...(groups.get(letter) ?? []), entry]);
+}
+const letters = [...groups.keys()].sort((a, b) => {
+  if (a === "#") return 1;
+  if (b === "#") return -1;
+  return a.localeCompare(b);
+});
+---
+<Base
+  title={`Diccionario A–Z | ${SITE_NAME}`}
+  description="Todas las palabras de Jerga Viva ordenadas alfabéticamente."
+  path="/a-z/"
+>
+  <h1>Diccionario A–Z</h1>
+  <nav aria-label="Letras" class="mt-6">
+    <ul class="flex flex-wrap gap-1">
+      {
+        letters.map((letter) => (
+          <li>
+            <a
+              href={`#letra-${letter}`}
+              class="inline-flex min-h-11 min-w-11 items-center justify-center rounded-full border-2 border-border bg-surface px-2 font-bold no-underline"
+            >
+              {letter}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+  {
+    letters.map((letter) => (
+      <section class="mt-8">
+        <h2 id={`letra-${letter}`}>{letter}</h2>
+        <ul class="mt-3 grid gap-4 sm:grid-cols-2">
+          {(groups.get(letter) ?? []).map((entry) => (
+            <li>
+              <WordCard
+                id={entry.id}
+                term={entry.data.term}
+                definition={entry.data.definition}
+                sensitivity={entry.data.sensitivity}
+              />
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+</Base>

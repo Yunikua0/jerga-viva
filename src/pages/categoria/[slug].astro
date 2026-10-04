@@ -1,0 +1,43 @@
+---
+import { getCollection } from "astro:content";
+import WordCard from "../../components/WordCard.astro";
+import Base from "../../layouts/Base.astro";
+import { SITE_NAME } from "../../lib/site";
+import { compareTerms } from "../../lib/text";
+import { CATEGORIES, CATEGORY_LABELS } from "../../lib/word-schema";
+
+export function getStaticPaths() {
+  return CATEGORIES.map((category) => ({ params: { slug: category }, props: { category } }));
+}
+
+const { category } = Astro.props;
+const label = CATEGORY_LABELS[category];
+const words = (await getCollection("words"))
+  .filter((entry) => entry.data.category === category)
+  .sort((a, b) => compareTerms(a.data.term, b.data.term));
+---
+<Base
+  title={`${label}: jerga y palabras | ${SITE_NAME}`}
+  description={`Palabras de ${label} explicadas con ejemplos: significado y origen de cada término.`}
+  path={`/categoria/${category}/`}
+>
+  <h1>{label}</h1>
+  {
+    words.length === 0 ? (
+      <p class="mt-6">Todavía no hay palabras aquí.</p>
+    ) : (
+      <ul class="mt-6 grid gap-4 sm:grid-cols-2">
+        {words.map((entry) => (
+          <li>
+            <WordCard
+              id={entry.id}
+              term={entry.data.term}
+              definition={entry.data.definition}
+              sensitivity={entry.data.sensitivity}
+            />
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</Base>

@@ -1,0 +1,91 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import { SITE_FALLBACK_URL, SITE_NAME } from "../../lib/site";
+import { truncate } from "../../lib/text";
+import { CATEGORY_LABELS } from "../../lib/word-schema";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("words");
+  return entries.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const all = await getCollection("words");
+const byId = new Map(all.map((e) => [e.id, e]));
+const related = entry.data.related.flatMap((id) => {
+  const found = byId.get(id);
+  return found ? [found] : [];
+});
+const base = Astro.site ?? SITE_FALLBACK_URL;
+const siteUrl = new URL("/", base).href;
+const canonicalUrl = new URL(`/palabra/${entry.id}/`, base).href;
+const sensitivityLabel =
+  entry.data.sensitivity === "strong"
+    ? "Lenguaje fuerte"
+    : entry.data.sensitivity === "mild"
+      ? "Uso ofensivo leve"
+      : null;
+---
+<Base
+  title={`${entry.data.term}: significado y ejemplos | ${SITE_NAME}`}
+  description={truncate(entry.data.definition, 155)}
+  path={`/palabra/${entry.id}/`}
+  ogType="article"
+  jsonLd={{
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    name: entry.data.term,
+    description: entry.data.definition,
+    url: canonicalUrl,
+    inDefinedTermSet: { "@type": "DefinedTermSet", name: SITE_NAME, url: siteUrl },
+  }}
+>
+  <article data-pagefind-body class="mx-auto max-w-[40rem]">
+    <h1>{entry.data.term}</h1>
+    <p class="mt-4 flex flex-wrap items-center gap-2">
+      <a
+        href={`/categoria/${entry.data.category}/`}
+        class="inline-flex min-h-8 items-center rounded-full border-2 border-border bg-surface px-3 text-sm font-semibold no-underline"
+      >
+        {CATEGORY_LABELS[entry.data.category]}
+      </a>
+      {
+        sensitivityLabel && (
+          <span
+            class={`text-sm font-semibold ${entry.data.sensitivity === "strong" ? "text-destructive" : "text-fg-muted"}`}
+          >
+            {sensitivityLabel}
+          </span>
+        )
+      }
+    </p>
+    <p data-testid="definition" class="mt-6 text-xl">{entry.data.definition}</p>
+    <h2 class="mt-8">Ejemplos</h2>
+    <ul data-testid="examples" class="mt-2 list-disc space-y-2 pl-6">
+      {entry.data.examples.map((example) => <li>{example}</li>)}
+    </ul>
+    <h2 id="origen" class="mt-8">Origen</h2>
+    <p class="mt-2">{entry.data.origin}</p>
+    {entry.data.reviewedAt && <p class="mt-4 text-fg-muted">Revisada el {entry.data.reviewedAt}</p>}
+    {
+      related.length > 0 && (
+        <>
+          <h2 class="mt-8">Palabras relacionadas</h2>
+          <ul class="mt-2 flex flex-wrap gap-2">
+            {related.map((r) => (
+              <li>
+                <a
+                  href={`/palabra/${r.id}/`}
+                  class="inline-flex min-h-8 items-center rounded-full border-2 border-border bg-surface px-3 font-semibold no-underline"
+                >
+                  {r.data.term}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+  </article>
+</Base>

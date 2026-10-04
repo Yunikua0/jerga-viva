@@ -1,0 +1,21 @@
+---
+interface Props {
+  id: string;
+  term: string;
+  definition: string;
+  sensitivity: "none" | "mild" | "strong";
+}
+
+const { id, term, definition, sensitivity } = Astro.props;
+---
+<article class="rounded-2xl border-2 border-border bg-surface p-4 shadow-[var(--shadow-card)] transition-transform duration-150 ease-out hover:-translate-y-0.5">
+  <h3><a href={`/palabra/${id}/`}>{term}</a></h3>
+  <p class="mt-1">{definition}</p>
+  {
+    sensitivity !== "none" && (
+      <p class={`mt-2 text-sm font-semibold ${sensitivity === "strong" ? "text-destructive" : "text-fg-muted"}`}>
+        {sensitivity === "strong" ? "Lenguaje fuerte" : "Uso ofensivo leve"}
+      </p>
+    )
+  }
+</article>
