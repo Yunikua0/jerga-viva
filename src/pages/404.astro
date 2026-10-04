@@ -1,0 +1,25 @@
+---
+import Base from "../layouts/Base.astro";
+---
+<Base
+  noindex
+  title="Página no encontrada | Jerga Viva"
+  description="Esa página no existe en Jerga Viva."
+  path="/404.html"
+>
+  <h1>Esa palabra no existe (todavía)</h1>
+  <p class="mt-6 flex flex-wrap gap-3">
+    <a
+      href="/"
+      class="inline-flex min-h-11 items-center rounded-full border-2 border-border bg-surface px-6 font-bold no-underline"
+    >
+      Ir al inicio
+    </a>
+    <a
+      href="/buscar/"
+      class="inline-flex min-h-11 items-center rounded-full bg-primary px-6 font-bold text-primary-fg no-underline"
+    >
+      Buscar una palabra
+    </a>
+  </p>
+</Base>
