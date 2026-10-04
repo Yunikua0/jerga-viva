@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm test:*)",
+      "Bash(npm install)",
+      "Bash(npm ci)",
+      "Bash(npm audit:*)",
+      "Bash(npx playwright:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npx biome:*)",
+      "Bash(EXPECT_CATEGORIES=redes-sociales,gen-z npx vitest run tests/unit/coverage.test.ts)",
+      "Bash(EXPECT_CATEGORIES=redes-sociales,gen-z,internet-gaming,relaciones-actitudes npx vitest run tests/unit/coverage.test.ts)",
+      "Bash(SITE_URL=https://example.test npm run build)",
+      "Bash(node scripts/check-dist.mjs:*)",
+      "Bash(node -v)",
+      "Bash(grep:*)",
+      "Bash(test:*)",
+      "Bash(ls:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git tag:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git ls-files:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Bash(git push:*)",
+      "Bash(rm -rf:*)"
+    ]
+  }
+}
